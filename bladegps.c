@@ -303,6 +303,7 @@ int main(int argc, char *argv[])
 				txvga1 = BLADERF_TXVGA1_GAIN_MIN;
 			else if (txvga1>BLADERF_TXVGA1_GAIN_MAX)
 				txvga1 = BLADERF_TXVGA1_GAIN_MAX;
+			break;
 		case 'i':
 			s.opt.interactive = TRUE;
 			break;
